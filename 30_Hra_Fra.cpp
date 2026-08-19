@@ -14,7 +14,7 @@ int main(){
     else if (user <= 20000){
         sum = user + (user * 0.25) + (user * 0.90);
     }
-    else if (user > 20000){
+    else{
         sum = user + (user * 0.30) + (user * 0.95);
     }
     cout << "Salary: " << sum;
